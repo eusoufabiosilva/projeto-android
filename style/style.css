@@ -45,7 +45,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 6em;
+    font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
@@ -59,6 +59,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
@@ -203,7 +204,7 @@ footer a {
 }
 
 footer a:hover {
-    font-size: 30px;
+    font-size: normal;
     text-decoration: underline;
     color: var(--cor1);
 }
